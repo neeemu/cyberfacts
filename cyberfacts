@@ -1,0 +1,365 @@
+The Creeper program from 1971 is often treated as the first self-replicating network program; it mostly just wandered around ARPANET announcing itself like a very smug pop-up.
+Reaper was written to remove Creeper, which means one of the earliest security tools was effectively a worm sent to hunt another worm. Very on-brand for this industry.
+The Morris Worm hit in 1988 and spread so aggressively that an experiment became a large-scale outage, infecting roughly 6,000 machines when the internet was still tiny enough for that to be catastrophic.
+The Morris Worm helped trigger the creation of CERT, because once your network is on fire, “we should probably organise incident response” becomes less of a suggestion.
+Early malware often spread by floppy disk, which meant “air gap” once had a natural predator called “someone with a pocket”.
+The Brain virus, released in 1986, is often cited as the first widely known PC boot-sector virus and came from two brothers in Pakistan trying to track software piracy.
+The AIDS Trojan from 1989 is widely remembered as an early ransomware ancestor; it was literally distributed on floppy disks to conference attendees, which is one way to ruin a delegate bag.
+The term Trojan horse in computing stuck because the whole point is deception: look useful, do something else, and leave the user wondering when life choices stopped working.
+John von Neumann’s work on self-reproducing automata long pre-dated modern malware, proving that computer scientists can accidentally foreshadow future security headaches decades in advance.
+Long before phishing kits, phone phreakers abused telephone signalling systems to make free calls, showing that technical abuse and billing fraud were old friends before the internet arrived.
+The famous “blue box” used in phone phreaking exploited signalling tones, which is a reminder that abusing trusted control channels is older than most current VPN concentrators.
+Kevin Mitnick became one of the most famous hackers of the 1990s largely because he combined technical skill with social engineering, which remains an unhelpfully durable combo.
+Cliff Stoll’s book The Cuckoo’s Egg turned a tiny accounting discrepancy into one of the best-known counter-espionage stories in computing history.
+That same case showed a timeless truth: sometimes an intrusion starts with a tiny anomaly no one else has time for, until suddenly everyone has time for it.
+The 1980s and 1990s saw antivirus vendors become household names, largely because malware authors kept providing the most aggressive possible product-market fit.
+The Melissa macro virus in 1999 spread via infected Word documents, making office productivity tools productive in a way nobody wanted.
+ILOVEYOU hit in 2000 with a subject line engineered to beat human judgement using curiosity, trust, and the universal weakness known as opening things we shouldn’t.
+ILOVEYOU was written in VBScript, which gave the world another reason to look suspiciously at seemingly harmless script files.
+Macro malware thrived because users trusted documents, and to be fair, “it’s just a file from someone I know” still causes trouble now.
+Email worms taught defenders that message security is not just about blocking malware; it is about blocking persuasion at machine speed.
+The Code Red worm in 2001 targeted Microsoft IIS servers and spread fast enough to make patching delays look like an open invitation.
+Code Red II followed quickly, because malware naming can be almost as repetitive as organisations postponing maintenance windows.
+The Nimda worm in 2001 spread in multiple ways at once, which made it memorable and miserable in roughly equal measure.
+Nimda’s name is “admin” backwards, because malware authors have always enjoyed making bad situations slightly more annoying through naming choices.
+The SQL Slammer worm in 2003 spread so quickly that it congested networks within minutes, despite being tiny enough to fit in a very smug paragraph of code.
+SQL Slammer showed that payload size matters less than propagation speed when the internet is happy to assist with the rest.
+The Blaster worm exploited Windows RPC and famously included a message aimed at Bill Gates, because some malware authors crave audience feedback.
+Sasser spread without email or user clicks, proving again that if patching is late enough, the network will do the distribution work for the attacker.
+The Conficker worm from 2008 infected millions of systems and was so persistent that it inspired one of the most coordinated industry clean-up efforts of its time.
+Conficker used multiple propagation methods, including weak passwords, which means it succeeded through both technical flaw and human optimism.
+The Zeus banking trojan became notorious for credential theft and spawned countless descendants, because malware families reproduce faster than change control.
+Zeus also helped popularise the idea of malware-as-a-service long before every SaaS company started promising to “transform your workflow”.
+SpyEye even marketed itself against Zeus, which briefly made cybercrime look like a particularly grim startup rivalry.
+Stuxnet was discovered in 2010 and changed cyber history by demonstrating malware that could cause physical damage to industrial equipment, not just digital chaos.
+Stuxnet specifically targeted industrial control logic tied to Iranian centrifuges, showing that malware could sabotage hardware while reporting that everything was fine.
+One reason Stuxnet stunned researchers was its apparent use of multiple zero-days, which is not a cheap hobby unless a nation-state budget is nearby.
+Countdown to Zero Day by Kim Zetter became one of the definitive books on Stuxnet because the story is too bizarre to be left to rumour alone.
+The documentary Zero Days also helped drag Stuxnet into mainstream awareness, proving that industrial sabotage can, in fact, make it into film recommendations.
+Stuxnet is often described as the first true cyberweapon to cause physical destruction, which is an awkward milestone for the security timeline.
+Stuxnet also taught defenders that PLCs and engineering workstations are not magically safe just because the average office worker has never heard of them.
+Duqu was linked to Stuxnet through code similarities and appeared more focused on espionage, because even malware ecosystems have spin-offs.
+Flame was remarkable for its complexity and espionage capability, with features more like a Swiss Army knife than a single-purpose implant.
+Flame could record audio, capture screenshots, and harvest data, showing that “surveillance platform” is sometimes the more accurate label than “virus”.
+Gauss, another espionage-focused malware family from the same era, reportedly targeted financial information and Middle Eastern systems, because regional campaigns often mix politics and money.
+Shamoon wiped data and hit Saudi Aramco in 2012, reminding defenders that not every major attack is about encryption or theft; sometimes destruction is the point.
+Wiper malware is especially nasty because you cannot negotiate with deleted files, however persuasive your procurement team may be.
+CryptoLocker helped make ransomware a household term by weaponising public key encryption in a way that made recovery a budgeting problem.
+Before ransomware became industrialised, many people still thought backups were boring. They remain boring, just dramatically more important.
+Gameover Zeus combined banking malware with botnet operations, showing attackers love platform strategies too.
+The takedown of botnets often looks like modern whack-a-mole: seize infrastructure, celebrate briefly, watch the ecosystem regrow somewhere annoying.
+A botnet is just a criminally managed fleet of compromised devices, proving that distributed systems are not automatically noble.
+The Mirai botnet rose to fame by recruiting insecure IoT devices with default credentials, which was effectively the internet being punished for “admin/admin”.
+Mirai’s 2016 DDoS attacks disrupted major services and highlighted how cheap internet-connected rubbish can become expensive internet-connected trouble.
+One enduring Mirai lesson is that cameras, DVRs, and routers are computers with feelings, and those feelings are usually “no one patched me”.
+DDoS attacks do not need stealth to be effective; brute-force volume is often enough when defenders are trying to distinguish traffic from weather.
+Dyn’s 2016 outage showed how hitting infrastructure providers can ripple into much wider internet disruption than the target list might suggest.
+The WannaCry outbreak in May 2017 spread globally by exploiting SMB flaws and left hospitals, businesses, and public services dealing with encrypted systems and very bad mornings.
+WannaCry used the EternalBlue exploit, a reminder that once offensive capability leaks, defenders inherit the maintenance nightmare.
+One of the most repeated WannaCry details is that the outbreak was slowed by a registered kill-switch domain, which is not a cyber strategy anyone wants to rely on twice.
+The NHS impact made WannaCry especially visible because cyber incidents feel more real when medical systems stop being background plumbing and start being headline news.
+NotPetya in 2017 looked like ransomware but behaved more like a wiper, turning recovery into a cruel joke for anyone hoping payment might help.
+NotPetya spread through compromised software updates and network movement, making trusted distribution channels part of the blast radius.
+Many researchers call NotPetya one of the most financially destructive cyberattacks ever, because collateral damage scaled far beyond the original intended geography.
+Calling something “ransomware” does not mean decryption is possible; sometimes the note is decorative cruelty attached to sabotage.
+M.E.Doc, the Ukrainian software update channel used in NotPetya, became the textbook example of supply-chain compromise done with devastating efficiency.
+Supply-chain attacks work because defenders spend years teaching users to trust updates, then attackers turn up wearing a release note.
+SolarWinds became security shorthand in 2020 for the nightmare scenario where a trusted software supplier pushes compromise downstream at scale.
+The SolarWinds intrusion highlighted just how much modern enterprise trust is delegated through build systems, signing processes, and update mechanisms.
+Supply-chain compromise is especially dangerous because it piggybacks on what blue teams are trying to preserve: normal operations.
+Kode frauds and payment scams often succeed not by breaking cryptography, but by breaking confidence, timing, and process. Humans remain wonderfully scriptable.
+Magecart became the go-to label for web skimming groups that injected malicious JavaScript into online shops, effectively turning checkout pages into card-harvesting farms.
+Web skimming proved that you do not always need to breach the buyer if you can quietly squat in the seller’s browser path.
+The Equifax breach became infamous partly because the vulnerable software had a patch available, which made the public lesson even more painful.
+When an organisation stores highly sensitive data, unpatched internet-facing systems are less a technical issue and more a leadership confession.
+The Target breach is often cited because attackers reportedly pivoted via a third-party supplier, making vendor risk everyone’s least glamorous but most persistent problem.
+Third-party access is useful until it becomes the bit in the post-incident review where everyone discovers how broad it really was.
+The Yahoo breaches were historically notable not just for scale, but for how long compromise can live in an environment before the damage is fully understood.
+Breach size is often the fact journalists remember, but dwell time is the detail defenders fear more.
+APT1, documented by Mandiant in 2013, helped drag public discussion of state-linked intrusion groups into the mainstream with unusually detailed reporting.
+Naming threat groups has become its own folklore, which is why the same actor can appear to have several identities depending on whose slide deck you opened.
+Fancy Bear, Cozy Bear, Sandworm, Lazarus and friends are memorable names for groups doing extremely unmemorable things to international stability.
+Sandworm is closely associated with some of the most disruptive operations in modern cyber conflict, including attacks on Ukrainian infrastructure.
+The 2015 and 2016 attacks on parts of Ukraine’s grid showed that cyber operations can cross the line from espionage into direct infrastructure disruption.
+Grid attacks also remind defenders that industrial and operational technology environments cannot be secured with good intentions and a quarterly awareness poster.
+BlackEnergy became associated with Ukraine infrastructure intrusions, proving once again that malware names alternate between comic-book villain and obscure metal band.
+Industroyer and Industroyer2 were built to interact with industrial protocols, which is the sort of sentence that makes OT defenders age in real time.
+When malware understands field protocols, the attack surface stops being abstract and starts looking a lot more like switches, breakers, and real-world consequences.
+Lazarus Group is tied to both espionage and financially motivated operations, which is a reminder that state-linked activity and profit are not always separate lanes.
+The Bangladesh Bank heist showed how attackers could abuse SWIFT-related processes to attempt massive fraudulent transfers without needing a Hollywood keyboard scene.
+One of the most memorable details from that heist was that some transfers were reportedly interrupted partly by spelling errors, which is almost insulting.
+Attackers have repeatedly abused legitimate admin tools like PowerShell, PsExec, and WMI, turning ordinary operations into forensic camouflage.
+The phrase living off the land exists because defenders noticed that using built-in tools is often quieter than dropping obvious malware.
+LOLBins are not malicious in themselves; they are just legitimate binaries that attackers borrow because blending in beats standing out.
+If a process is signed, built in, and widely used, attackers will eventually try to hide inside it. Convenience is a two-way street.
+PowerShell became both a defender favourite and an attacker favourite, which is a common fate for tools powerful enough to save time.
+Script interpreters are useful because they automate good administration; they are dangerous for exactly the same reason.
+WMI abuse appears in countless intrusion write-ups because remote execution and system interrogation remain attractive when stealth and reach both matter.
+Attackers love persistence mechanisms that look boring, because boring is what busy teams overlook.
+Scheduled tasks, registry run keys, services, startup folders, and remote tools remain popular because they work, even if they are older than some analysts.
+A surprising amount of intrusion detection is just learning all the normal weirdness in your estate before someone adds malicious weirdness on top.
+Phishing remains effective not because users are foolish, but because attackers iterate faster than most awareness programmes and only need one convincing moment.
+Spearphishing differs from generic phishing mainly in the amount of homework done beforehand, which is why personalisation remains dangerous.
+Business Email Compromise often uses no malware at all, which is offensively efficient and very annoying for teams that only trust detections with hashes.
+BEC works because process weaknesses are still exploitable even when the endpoint protection graphs look healthy.
+Invoice fraud, payroll diversion, and gift-card scams are low-glamour crime categories that keep thriving because urgency and authority still move money.
+Gift-card fraud campaigns are the cyber equivalent of robbing a bank by pretending to be your boss and asking for a favour before lunch.
+MFA fatigue attacks abuse repeated push notifications until a user approves out of confusion or exhaustion; social engineering has simply learned to vibrate.
+MFA is hugely valuable, but like any control, it can be blunted if users are trained to accept friction rather than question it.
+SIM swapping turns phone numbers into identity weak points by hijacking the recovery channel many services still trust too much.
+Account recovery flows are often where strong authentication goes to be politely undermined.
+Password spraying succeeds because many organisations still have enough predictable passwords to make low-and-slow guessing a reasonable business model.
+Spraying differs from brute force by being more patient and less noisy, which is usually the part attackers appreciate most.
+Long before deepfakes, social engineering relied on urgency, hierarchy, curiosity, fear, and goodwill; modern tooling just scales the same instincts.
+Attackers do not need everyone to believe them, only the one person currently too busy to verify.
+Smishing and vishing persist because people still trust phones and texts more than they probably should, especially when stress is involved.
+Caller ID and email display names are examples of presentation layers humans over-trust; attackers noticed this years ago.
+A fake login page only needs to look convincing for a few seconds, which is why defender perfection standards are usually unfair.
+Browser padlock icons do not mean a site is trustworthy; they mean the connection is encrypted, which is helpful but not the same thing at all.
+HTTPS secures the pipe, not the morals of the person at the other end.
+Typosquatting works because the human visual system is surprisingly generous to domain names in a hurry.
+Homograph attacks can abuse similar-looking characters to create deceptive domains, proving that Unicode is both a marvel and a menace.
+Threat actors have repeatedly registered lookalike domains for brand impersonation, credential theft, and support scams because spelling is now part of attack surface management.
+Fake browser updates and fake CAPTCHA lures remain depressingly effective because users have been trained to obey interface friction.
+One modern trick is using CAPTCHA pages to make victims copy and paste commands, which is a crude but effective way to outsource initial access.
+Ransomware crews increasingly operate like businesses, with affiliates, negotiations, support desks, and branding choices no sane person should admire.
+Ransomware-as-a-service proved that cybercrime loves franchising when it reduces overhead and scales abuse.
+Some ransomware groups publish “press release” style leak-site updates, because apparently even extortion wants content strategy.
+Double extortion added data theft to encryption, making backups less of a silver bullet and more of one layer in a deeply irritating defence stack.
+Triple extortion then added pressure on customers, partners, or staff, because criminals rarely stop once they find another lever.
+A ransomware note promising “professional handling” is one of the more absurd language genres the internet has produced.
+Ryuk, Conti, LockBit, BlackCat/ALPHV, Clop, and others helped define different phases of the ransomware era, each leaving defenders with new habits and fewer weekends.
+Some big ransomware incidents began with very ordinary entry points like VPN compromise, phishing, or exposed remote access, which is not comforting but is useful.
+Clop became especially prominent in file-transfer exploitation waves, showing how one software flaw can turn into a large-scale extortion conveyor belt.
+Mass exploitation campaigns are why patch severity and threat relevance are not always identical; the internet votes very quickly.
+MOVEit exploitation reminded organisations that “third-party file transfer” is not the same as “someone else’s problem”.
+Secure file-sharing platforms are often trusted precisely because they handle sensitive data, which makes them attractive targets when they fail.
+Zero-day means a vulnerability exploited before defenders have a patch or detection coverage ready, which is as rude as it sounds.
+The book This Is How They Tell Me the World Ends helped pull the zero-day market into wider public conversation, where it remains unsettling reading.
+A zero-click exploit is the security equivalent of being mugged by a message you never opened.
+Mobile zero-click chains are so prized because they remove user dependency, and users have spent years being blamed for breaches already.
+Pegasus spyware became globally infamous because it showed how advanced mobile surveillance tooling could target phones used by journalists, activists, and political figures.
+Mobile phones are now identity hubs, camera systems, document stores, second-factor devices, and constant network beacons, which is why compromising one is such a rich prize.
+The average corporate phone quietly carries more authority than some on-prem servers did twenty years ago.
+Rootkits are designed to hide, which makes them less about dramatic break-in and more about long-term deception.
+Bootkits take that idea lower into the startup chain, because some attackers prefer persistence before the operating system has fully woken up.
+Firmware attacks matter because reinstalling the OS does not help much if the malware moved into the walls.
+UEFI security became a bigger conversation once defenders realised pre-OS trust anchors are both powerful and annoyingly complicated.
+The lower in the stack an attacker gets, the fewer normal tools can see them clearly.
+Kernel-level compromise is usually bad news because the system is effectively being watched by something sitting under the guards.
+Attackers often disable or tamper with security tools first, because no one likes witnesses.
+Process injection remains common because reusing a trusted process beats launching something obviously unfamiliar.
+Credential dumping from memory became infamous through tools like Mimikatz, which taught a generation of defenders to care a great deal about LSASS.
+Many identity attacks are less about cleverness and more about harvesting what a user or admin session has already made available.
+Pass-the-hash is one of those concepts that sounds niche until you realise it turns authentication leftovers into movement rights.
+Pass-the-ticket and Kerberos abuse taught defenders that identity protocols are lovely right up until attackers understand them too.
+Golden Ticket attacks abuse Kerberos trust so completely that the name sounds almost whimsical until you are the one rotating krbtgt.
+Active Directory is often described as the crown jewel because it controls so much; unfortunately, that description is also excellent attacker marketing.
+AD misconfigurations are often old, inherited, undocumented, and deeply trusted, which is why they survive long enough to matter.
+Privileged groups that accreted members over years often look less like access control and more like sedimentary rock.
+“Temporary admin” has a strange tendency to become permanent unless someone keeps receipts.
+Attack path tools became popular because visualising compounded privilege is easier than reading three hundred nested group memberships and pretending that is governance.
+Kerberoasting works by abusing service tickets for offline cracking, which is a neat example of normal protocol behaviour becoming a hunting ground.
+A very strong domain with a few weak service account passwords is not, in fact, very strong.
+Service accounts have historically been given exactly the qualities attackers enjoy most: high privilege, infrequent rotation, and very little curiosity from humans.
+Lateral movement is often where defenders first spot an intrusion, not because initial access is invisible, but because post-compromise behaviour gets greedier.
+Remote admin traffic at the wrong time from the wrong host using the wrong account remains one of the most useful flavours of “that’s odd”.
+Data exfiltration does not always look dramatic; sometimes it is just well-timed archive creation, cloud upload, and enough bandwidth to regret not watching sooner.
+Compression tools are not malicious, but a server suddenly zipping its best possessions before an outbound transfer is worth a raised eyebrow.
+Attackers frequently use commodity cloud services for staging or exfiltration because defenders are reluctant to block everything with a recognisable logo.
+DNS tunnelling turns a foundational protocol into a covert channel, because attackers love hiding in traffic everyone depends on.
+DNS is one of the internet’s most trusted systems, which means abuse there tends to linger until someone asks unusually good questions.
+Domain fronting and related evasions have shown how shared infrastructure can complicate blocking when innocent and malicious traffic look socially connected.
+Attackers often test multiple persistence mechanisms because they know defenders usually find one and congratulate themselves a bit too soon.
+Incident responders eventually learn that “eradicated” and “quiet” are not synonyms.
+A useful threat hunting question is not “do we have this IOC?” but “what behaviour would this intrusion force somewhere in our telemetry?”
+Good hunts are hypothesis-led; bad hunts are usually “search everything for vibes”.
+Detection engineering is partly the art of turning suspicious behaviour into logic without turning the SOC into a false-positive support group.
+The best detections are often boringly specific rather than theatrically broad.
+A SIEM can centralise logs, but it cannot centralise judgement. People still have to care about what they are seeing.
+Security telemetry ages badly if no one tests it against real attacker behaviour; shelfware is not a control.
+Endpoint detection changed blue-team practice because visibility into process trees, command lines, and module loads is often where stories become solvable.
+The process tree is one of the best gifts defenders were ever given, largely because attackers keep leaving family clues.
+Script block logging, PowerShell transcription, AMSI, and command-line telemetry have all been battlegrounds because visibility hurts attacker comfort.
+AMSI bypasses exist because attackers noticed defenders finally had a flashlight somewhere useful.
+“Living off the land” often really means “we noticed your environment already contains our toolkit if we rename the intent”.
+YARA rules became beloved because they give defenders a flexible way to describe suspicious file traits without needing exact signatures for everything.
+Sigma rules became popular because detection content that can travel between platforms saves teams from rewriting the same logic in six dialects and a bad mood.
+MITRE ATT&CK gave the industry a shared vocabulary for adversary behaviour, which in turn gave slide decks a lot more boxes to colour in.
+ATT&CK is most useful when it informs actual detection and hunt coverage, not when it is used as decorative wallpaper for maturity claims.
+A beautifully mapped matrix with weak logging behind it is still just a confidence costume.
+IOC feeds are helpful, but behaviour survives infrastructure churn better than IP addresses do.
+Attackers can rotate domains faster than most change boards rotate meeting minutes.
+TTPs matter because even when tools change, habits often leave familiar fingerprints.
+Threat intelligence is useful when it narrows decisions, not when it becomes a scrapbook of cyber misery.
+In practice, a short intel note that changes one hunt or one detection can be more valuable than fifty pages of context nobody operationalises.
+Hashes are precise but brittle; behaviours are noisier but age better. Pick your pain.
+The “dwell time” metric became famous because long-running intrusions are usually not the result of one missed alert, but of many missed chances to connect signals.
+Mean time to detect and mean time to respond are useful, but they are also statistics very capable of flattering weak reality if the scoping is kind enough.
+Red teams are useful partly because defenders rarely discover monitoring blind spots by admiring themselves.
+Purple teaming works best when the goal is improved coverage, not theatrical compromise for a screenshot and a biscuit afterwards.
+Security awareness posters without process change are basically decorative guilt.
+Users behave better when the secure path is easier than the insecure workaround, which is not weakness; it is ergonomics.
+Shadow IT often appears because approved IT is too slow, too hard, or too disconnected from real work. Attack surface has user-experience roots.
+Security teams that only say “no” often end up learning about risky workarounds after the workaround becomes an incident.
+Least privilege sounds obvious until you try removing access from systems that have quietly depended on “temporary” exceptions for years.
+Privilege creep is what happens when access is granted as a courtesy and reviewed as a rumour.
+The principle of separation of duties exists because fraud and misuse get harder when one person cannot both approve and execute the bad idea.
+Data classification matters because defending “everything equally” is the quickest route to protecting nothing especially well.
+Backups only count if you can restore from them, and restore testing is where many backup strategies discover they were actually hopeful filing systems.
+Offline or immutable backups became far more fashionable once ransomware crews started deleting or encrypting the obvious copies first.
+A backup console with the same admin credentials as production is less a recovery plan and more a shared destiny.
+“Single pane of glass” is a phrase often heard shortly before someone discovers the pane has a crack exactly where the incident is hiding.
+PCI DSS, HIPAA, GDPR, NIS2, and similar frameworks matter, but compliance and security are related, not identical species.
+Passing an audit does not prove resilience; it proves you successfully met a standard on a date. Attackers are rarely impressed by dates.
+Secure coding starts with input validation, least privilege, and sane defaults, all of which sound sensible and still get skipped under deadline pressure.
+Buffer overflows are older than many modern stacks and yet still matter because memory safety has never been a problem you can ignore into extinction.
+SQL injection remains legendary because it is conceptually simple, often devastating, and an eternal reminder not to trust user input.
+If user input can change query structure, you are not processing data; you are inviting improvisation.
+Cross-site scripting matters because browsers trust websites to behave, and websites sometimes repay that trust very creatively.
+XSS has outlived countless redesigns because “displaying untrusted content safely” remains more fiddly than many teams hope.
+CSRF taught developers that authenticated browsers can be tricked into doing work on behalf of users who never meant to ask.
+Session management bugs are dangerous because identity on the web often lives or dies through tokens, cookies, and expiry decisions made under deadline.
+SSRF became a cloud-era favourite because internal metadata services turned “fetch a URL for me” into “please steal my credentials if you know the path”.
+Cloud changes old assumptions about trust; internal does not always mean safe when workloads are one request away from impersonation.
+Deserialisation bugs proved that turning complex objects back into live code paths is fantastic until someone sends you a poisoned object.
+Log4Shell became instantly infamous because a widely used Java logging library turned routine string handling into remote code execution at terrifying scale.
+Log4Shell was the sort of vulnerability that made defenders revisit the phrase “just a library” with visible pain.
+Software composition matters because many organisations do not actually know what they are running until a critical CVE introduces them.
+An SBOM can be useful, but only if someone reads it before the next emergency, not while actively panicking during it.
+Heartbleed showed that a tiny bounds-checking mistake in a foundational crypto library could expose memory contents from systems all over the internet.
+Heartbleed was a reminder that open source can be both indispensable and under-resourced, which is not a healthy pairing for core infrastructure.
+Shellshock made environment variables briefly terrifying to much wider audiences than usual.
+Bash unexpectedly becoming headline material was funny only for people not patching everything in sight.
+Dirty COW became a memorable Linux privilege escalation because kernel race conditions have a talent for sounding cute and behaving badly.
+EternalBlue is a case study in why patched-but-unapplied is not a state defenders should celebrate.
+Vulnerability management is not just severity sorting; it is deciding which flaws are likely to matter in your environment before attackers answer for you.
+“Critical” on a scanner and “critical to us” in practice are not always identical, which is why context keeps trying to join the meeting.
+Exposure without exploitation is technical debt; exposure with active exploitation is usually a very short meeting followed by a long week.
+Patch Tuesday exists because coordinating updates is better than chaos, although to many IT teams it still feels like scheduled chaos with branding.
+Delayed patching is often blamed on complexity, legacy dependencies, or downtime risk, all of which are real right up until the exploitation notice arrives.
+Virtual patching, compensating controls, and segmentation are not excuses to ignore a fix forever; they are what you do while reality catches up.
+Segmenting networks is one of the least glamorous and most consistently useful ways to stop one compromise becoming everyone’s problem.
+Flat networks are convenient until an attacker discovers they are, too.
+Air gaps are not mythical shields if updates, removable media, engineering laptops, or trusted bridges can still move across the boundary.
+Stuxnet is the famous example people cite whenever someone says an isolated network is automatically safe.
+USB drives remain useful tools and enduring risk objects because “sneakernet” never truly retired.
+BadUSB style attacks exploited the fact that a device can lie about what it is, which is philosophically rude and technically effective.
+Hardware implants have made spy novels feel less silly, although still not quite as dramatic as conference keynotes.
+TEMPEST and side-channel work showed long ago that systems can leak through timing, radiation, sound, and power, which is not comforting if you enjoy certainty.
+Acoustic cryptanalysis has included researchers inferring information from keyboard sounds and device noise, proving paranoia occasionally earns overtime.
+Side-channel attacks like Spectre and Meltdown showed that CPU performance tricks can create security consequences at the architecture level.
+Spectre and Meltdown were especially unsettling because they turned fundamental processor behaviour into a security conversation for almost everyone at once.
+Microarchitectural bugs are horrible partly because patching them often involves speed trade-offs, and nobody likes choosing between safe and fast in production.
+Rowhammer demonstrated that repeatedly accessing memory rows could induce bit flips, which is about as impolite as hardware attacks get.
+Hardware security is often invisible right up until the firmware update notes become the scariest reading of the quarter.
+TPMs and secure enclaves exist because key material does better when it is not casually hanging around in general memory.
+A hardware root of trust is still only one part of trust; processes around provisioning, recovery, and admin access can still ruin the mood.
+PGP made strong public-key encryption available to wider audiences, while also proving that usable key management is a social challenge wearing a mathematical hat.
+Good cryptography is usually easy to praise and hard to deploy well because the weak point is often everything built around it.
+Encryption protects data at rest and in transit; it does not protect a user already logged in as the attacker’s best friend.
+End-to-end encryption secures content between endpoints, which is brilliant until someone compromises an endpoint and simply reads it there instead.
+TLS is one of the quiet heroes of the internet because most people only notice it when it breaks or when someone forgets a certificate renewal.
+Expired certificates have caused surprisingly public outages, proving once again that mundane operational failures can outsprint sophisticated threat models.
+Public key infrastructure sounds elegant until you are actually managing issuance, trust stores, revocation, and certificate inventory in a large estate.
+Browsers became some of the most important security platforms on earth because they sit at the meeting point of identity, code execution, and user optimism.
+Browser extensions can be useful productivity aids or terrible ideas with permissions, depending on who wrote them and what they quietly update into later.
+Malvertising showed that even legitimate ad ecosystems can become malware delivery paths when the supply chain gets messy enough.
+Drive-by downloads made “I only visited a website” a perfectly valid incident opening line.
+Security researchers have repeatedly shown that internet-connected toys, TVs, baby monitors, and appliances can be compromised, because vendors keep shipping tiny computers with very big assumptions.
+The phrase Internet of Things often means “things we gave IP addresses before we gave them patch plans”.
+Smart doorbells, cameras, fridges, and lightbulbs are excellent examples of attack surface migration disguised as convenience.
+Internet-connected fish tank sensors became a famous anecdote because apparently even aquariums can end up in breach stories if network access is sloppy enough.
+A “smart” device without update support tends to become merely “online”.
+Industrial systems once benefited from obscurity and isolation; now that many are connected, they get the risks of IT without always getting the tooling.
+OT defenders often have to protect assets that cannot be patched easily, rebooted casually, or replaced this budget cycle, which makes good architecture priceless.
+Safety and security overlap in industrial environments, but they are not interchangeable; getting that wrong can produce very expensive lessons.
+The CIA triad of confidentiality, integrity, and availability sounds academic until availability vanishes and everyone suddenly rediscovers the third word.
+Integrity is often the underappreciated sibling until someone changes data or control logic while the system still looks healthy.
+Availability incidents are sometimes treated as “just outages”, but a targeted disruption can matter more to operations than a quiet data leak.
+BGP hijacks have shown that internet routing trust can be abused in ways that redirect or blackhole traffic far beyond the local administrator’s field of view.
+DNS cache poisoning, route leaks, and certificate misuse all exploit the same old truth: distributed trust is powerful and brittle.
+Cloud did not remove security work; it changed where mistakes are made and who can make them quickly.
+Misconfigured cloud storage buckets became iconic because exposing sensitive data no longer required advanced malware, just permissive settings and bad luck.
+The cloud shared-responsibility model is simple in theory and a source of many uncomfortable discovery calls in practice.
+Identity is the new perimeter largely because workloads, users, SaaS, and remote access moved beyond neat network edges years ago.
+If the perimeter is now identity, then poor identity hygiene is basically leaving the gate open and complimenting the hinges.
+API security matters because modern applications talk through APIs constantly, and attackers are happy to join the conversation uninvited.
+The OWASP Top Ten has changed over time, but insecure design and broken access control keep proving that fundamentals age better than frameworks.
+Broken access control being common is especially frustrating because the app often works exactly as built; it just should not have been built that way.
+Security through obscurity fails regularly, though obscurity plus real controls can buy time. Obscurity alone buys incident retrospectives.
+Developers did not invent the phrase “works on my machine” as a security warning, but sometimes it lands there anyway.
+DevSecOps became popular less because of buzzwords and more because bolting security on at the end kept generating expensive surprises.
+Secret management is now a first-class problem because cloud-native systems can leak tokens, keys, and credentials with the speed of automation.
+Hard-coded secrets in repositories remain a recurring breach theme because copying a file is easier than establishing a secure secret pipeline under deadline.
+Commit history is where many secrets go to retire badly.
+GitHub and other code platforms have repeatedly been mined by attackers looking for exposed tokens, credentials, and internal clues people forgot they published.
+Open-source intelligence is powerful because organisations leak far more context than they think through documents, repos, metadata, and public infrastructure.
+A public PDF can say more about your environment than a dozen threat intel reports if no one scrubbed the author fields and internal naming.
+Metadata is one of those things defenders remember exists immediately after someone else finds it first.
+Security misconfigurations often outnumber software exploits as practical risk because secure defaults are not as common as product pages suggest.
+Default credentials have powered countless compromises because vendors keep shipping them and customers keep meaning to change them later.
+“Later” is one of the internet’s most successful persistence mechanisms.
+Honeypots and deception systems work because attackers do not always expect the environment to lie back.
+A good decoy asset can save analysts time by turning unauthorised interaction into immediate suspicion instead of a long argument.
+Attackers also use deception, from fake updates to fake support calls to fake captchas, so fair play was never really on the table.
+Cybercrime forums have functioned as marketplaces, help desks, review boards, and recruitment channels, because criminal operations also suffer from quality control issues.
+Reputation matters on underground forums too; even extortion ecosystems dislike getting scammed by their own suppliers.
+Some ransomware crews have had internal drama, rebrands, leaks, or “retirements”, which makes them sound like bands if you ignore the crimes.
+Leak sites are partly extortion tools and partly marketing, proving once again that the worst people also understand audience pressure.
+Cryptocurrency made certain kinds of cybercrime easier to monetise across borders, but it did not remove the attacker’s favourite currency: access.
+The hardest part of many investigations is not knowing whether a compromise is over, but whether the attacker still has one boring path left.
+Incident reports often make attacks look linear; real intrusions are messier, with retries, mistakes, dead ends, and lucky breaks on both sides.
+Attackers misconfigure things too, and defenders occasionally win because someone on the other side also works under pressure.
+Some famous botnets and malware families have been partially sinkholed or dismantled because researchers and law enforcement found ways to seize infrastructure or redirect traffic.
+Sinkholing is one of the more satisfying cyber concepts: redirecting malicious traffic into visibility instead of impact.
+Threat actor operational security tends to erode over time as campaigns scale and more people touch the machinery.
+Reused infrastructure, development mistakes, timezone clues, language artefacts, and test files have all contributed to attribution discussions that become very lively very quickly.
+Attribution in cyber is difficult because spotting fingerprints is not the same as producing courtroom-grade certainty.
+False flags are possible, but defenders should not let that excuse become a reason to ignore strong evidence entirely.
+Security headlines love “sophisticated”, but many damaging intrusions still begin with very ordinary failures in patching, identity, configuration, or verification.
+Most rainbow tables are less of a threat now against properly salted hashes, which is the rare case where doing the boring thing properly genuinely helps.
+Hashing is not encryption, however many executives have used the terms interchangeably in meetings they should not have chaired.
+A one-way cryptographic hash is meant for verification, while encryption is meant for secrecy; confusing them is common and occasionally catastrophic.
+Salts make identical passwords produce different stored hashes, which is one of the reasons unsalted password databases age so badly after breach disclosure.
+Password managers are popular with defenders because humans are not naturally good at generating or remembering dozens of unique, high-entropy secrets.
+The strongest password policy in the world fails quickly if it drives users to seasonal patterns, desk notes, or creative password recycling.
+Long passphrases work well partly because memorability and entropy do not have to be enemies if design is sensible.
+Multi-factor authentication is one of the biggest easy wins in security, which is why attackers keep inventing ways to bypass, phish, downgrade, or fatigue it.
+The rise of phishing-resistant MFA methods matters because shared secrets and push approvals were never going to be the final form.
+FIDO and passkeys aim to reduce phishing risk by tying authentication to device-bound cryptography, which is refreshingly hostile to fake login pages.
+Passwordless does not mean “no security problems”; it means a different set of recovery, device trust, and lifecycle problems you must actually think through.
+User access reviews are tedious until you compare them with the excitement of discovering former interns still hold production permissions.
+Joiners, movers, and leavers processes are security controls wearing HR clothing.
+Dormant accounts are favourites for attackers because neglected identities often come with low scrutiny and broad opportunity.
+Logs are only useful if they are retained, searchable, trusted, and mapped to the questions incident responders will actually need to ask.
+Turning on every log without a plan mostly creates a very expensive future archaeology project.
+Time sync matters in investigations because reconstructing an intrusion from unsynchronised systems is a special kind of punishment.
+Good case notes during incidents feel slow in the moment and priceless when the incident review begins and everyone’s memory goes on holiday.
+A post-incident review that ends at “user clicked link” is usually just an expensive way of refusing to learn anything structural.
+Mature teams ask not only how the intrusion happened, but why speed bumps, detections, access limits, and recovery plans did not reduce the blast radius.
+The phrase defence in depth sounds abstract until one control fails and the next one prevents the week becoming unmanageable.
+Single points of failure are bad in engineering and worse in security, where they often come with admin rights and an undocumented service dependency.
+Security culture is built less through slogans and more through whether reporting a suspicious event is easy, welcomed, and acted on quickly.
+If staff think reporting an incident will get them blamed, many will wait, and attackers are deeply supportive of that atmosphere.
+“Trust but verify” is still too generous for many modern workflows; “verify, then maybe trust briefly” is closer.
+Attackers often exploit the gap between system trust and process trust; once one is broken, the other follows politely.
+Security is often described as a journey because “unfinished but unavoidable with recurring surprise costs” tested badly with stakeholders.
+The best cyber trivia often doubles as a lesson: the surprising detail is memorable, but the process failure is usually the part that repeats.
+A weird but useful SOC habit is keeping a list of attack stories that sound ridiculous, because ridiculous things still happen in production on Tuesdays.
+If an incident sounds too odd to be real, check it anyway; cyber history is full of cases that would have been rejected by an editor as unrealistic.
+Stolen credentials are still among the most valuable resources in cybercrime because logging in normally is quieter than breaking in noisily.
+Browser cookies and session tokens are prized because they can sometimes bypass the inconvenience of passwords and MFA entirely.
+Infostealer malware has surged in relevance because stealing sessions, saved passwords, and crypto wallets can be monetised quickly and at scale.
+Attackers increasingly pursue cloud identity and SaaS admin access because that is where modern business control often lives, not in a single server room.
+A compromised email account with search, forwarding rules, and trust from colleagues is one of the most efficient fraud platforms in a company.
+Suspicious inbox rules and stealthy auto-forwarding are classic examples of tiny changes with very outsized downstream consequences.
+Mailbox compromise often becomes data theft, internal phishing, or payment fraud before it becomes malware, which is why email telemetry matters so much.
+Security teams love “high signal” because buried analysts make poor detectives, and attackers benefit when every alert looks equally miserable.
+Tuning detection logic is not glamorous, but neither is reading seven thousand low-value alerts to miss the one that mattered.
+False positives cost attention, and attention is one of the few response resources you cannot quickly buy once the incident is live.
+A good bulletin fact is not just trivia; it gives the reader a mental hook that makes later threat reporting stick faster.
+Cyber history is useful because new attack packaging often sits on top of very old ideas: trust abuse, weak verification, shared secrets, and delayed patching.
+The strongest lesson from decades of incidents is not that technology is doomed, but that mundane controls routinely outperform heroic storytelling.
+If a security tale ends with “nobody thought anyone would do that”, it usually means someone confused inconvenience with defence.
+The world of cyber security changes constantly, but one fact refuses to age: the boring fundamentals still ruin the most expensive attacker plans when organisations actually do them properly.
